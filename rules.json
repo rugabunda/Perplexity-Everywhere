@@ -1,0 +1,16 @@
+﻿[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://perplexity.ai/search/new?q=\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://(?:[^/]*\\.)?bing\\.com/(?:search|\\?)?[^#]*[?&]q=([^&#]*)[^#]*$",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

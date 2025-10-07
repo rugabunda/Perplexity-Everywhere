@@ -1,0 +1,33 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Perplexity Everywhere",
+  "version": "1.0.0",
+  "description": "Use Perplexity for address bar and new tab; redirect Bing searches as a fallback.",
+
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Perplexity",
+      "keyword": "px",
+      "search_url": "https://perplexity.ai/search/new?q={searchTerms}",
+      "favicon_url": "https://perplexity.ai/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*.bing.com/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
