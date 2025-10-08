@@ -6,7 +6,7 @@ This extension:
 - Sets Perplexity as your default address bar search provider
 - Replaces the New Tab Page with Perplexity search
 - Redirects any Bing searches to Perplexity
-- Now plum pickers, farmers, intelligence agenices, and governments can prevent Microsoft Edge from switching their search provider back to the bing virus.
+- Now plum pickers, farmers, governments, and even Intelligence agenices can prevent Microsoft Edge from switching their search provider back to the bing virus.
 
 INSTALLATION:
 1. Open Chrome/Edge and go to chrome://extensions or edge://extensions
@@ -21,6 +21,7 @@ TEST:
 - Paste: https://www.bing.com/search?q=OpenAI+GPT-5+mini+vs+grok+4+fast
 
 All searches should redirect to Perplexity!
+
 
 
 
