@@ -23,8 +23,8 @@ TEST:
 All searches should redirect to Perplexity!
 
 TIPS:
-
 - Stop the Developer Mode Extension Warning: https://rentry.co/8ynnpaqz
+
 
 
 
