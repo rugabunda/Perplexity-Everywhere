@@ -24,6 +24,7 @@ All searches should redirect to Perplexity!
 
 TIPS:
 - Stop the Developer Mode Extension Warning: https://rentry.co/8ynnpaqz
+- https://techjourney.net/remove-disable-developer-mode-extensions-warning-popup-in-chrome-edge/
 
 
 
