@@ -1,4 +1,4 @@
-﻿Perplexity Everywhere Extension
+﻿Perplexity Everywhere MSEdge/Chrome Extension
 ================================
 
 This extension:
@@ -27,6 +27,7 @@ TIPS:
 - https://techjourney.net/remove-disable-developer-mode-extensions-warning-popup-in-chrome-edge/
 - https://stackoverflow.com/questions/23055651/disable-developer-mode-extensions-pop-up-in-chrome/78031249#78031249
 - https://sourceforge.net/projects/closevatel/
+
 
 
 
